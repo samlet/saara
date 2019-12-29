@@ -1,7 +1,7 @@
 import sys, os, glob, json, codecs, platform
 
-import ArabicTransliterator
-from ArabicTransliterator import ALA_LC_Transliterator
+import arabic.ArabicTransliterator
+from arabic.ArabicTransliterator import ALA_LC_Transliterator
 import mishkal.tashkeel.tashkeel as tashkeel
 
 class TranslitArabic(object):
@@ -33,7 +33,7 @@ class TranslitArabic(object):
 
     def tests(self):
         """
-        $ python -m sagas.nlu.translit_ar tests
+        $ python -m saara.translit_ar tests
         :return:
         """
         import pandas as pd
@@ -50,7 +50,7 @@ class TranslitArabic(object):
     def translit(self, trac_unk, text):
         """
         t: ‫من فضلك، هناك عند الزاوية على اليسار.‬
-        $ python -m sagas.nlu.translit_ar translit True t
+        $ python -m saara.translit_ar translit True t
 
         :param text:
         :return:
@@ -66,7 +66,7 @@ class TranslitArabic(object):
 
     def fixtures(self):
         """
-        $ python -m sagas.nlu.translit_ar fixtures
+        $ python -m saara.translit_ar fixtures
         :return:
         """
         sents=['من فضلك، هناك عند الزاوية على اليسار.‬',
