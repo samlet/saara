@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/pypi/v/salang.svg)](https://pypi.python.org/pypi/salang-saara/)
+[![Version](https://img.shields.io/pypi/v/salang-saara.svg)](https://pypi.python.org/pypi/salang-saara/)
 ArabicTransliterator (modified-edition)
 ======
 

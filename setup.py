@@ -8,7 +8,7 @@ REQUIRED = [
 ]
 
 setup(name='salang-saara',
-      version='0.3',
+      version='0.4.0',
       description='A code for transliterating (romanizing) Arabic text using the ALA-LC standard',
       author='CompMusic / MTG UPF',
       url='https://github.com/samlet/saara',
