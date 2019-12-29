@@ -1,4 +1,5 @@
-ArabicTransliterator
+[![Version](https://img.shields.io/pypi/v/salang.svg)](https://pypi.python.org/pypi/salang-saara/)
+ArabicTransliterator (modified-edition)
 ======
 
 A code for transliterating (romanizing) Arabic text using the American Library Association - Library of Congress (ALA-LC) standard, but it can be extended
